@@ -12,8 +12,14 @@ attr_reader :name, :breed
  end
 
  def run
-    p "Clop clop clop clop!!!"   
+    p "Clop clop clop clop!!!"
  end
 
+ def cranky?
+   false
+ end
 
+ def standing?
+   true
+ end
 end
